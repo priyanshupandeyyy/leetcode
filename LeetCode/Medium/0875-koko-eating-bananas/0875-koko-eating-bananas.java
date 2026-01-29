@@ -16,7 +16,9 @@ class Solution {
                 else c+=(piles[i]/mid)+1;
             }
             if(c>h)min=mid+1;
-            else if(c<=h)max=mid;
+            else if(c<=h){
+                max=mid;
+            }
         }
         return min;
     }
