@@ -22,6 +22,7 @@ class Solution {
         dia=Math.max(dia,left+right);
         return 1+Math.max(left,right);
     }
+    
     public int diameterOfBinaryTree(TreeNode root) {
         height(root);
         return dia;
